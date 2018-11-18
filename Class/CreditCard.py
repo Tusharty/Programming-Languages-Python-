@@ -78,7 +78,7 @@ if __name__ == "__main__":
         while wallet[c].get_balance() > 100 :
             wallet[c].make_payment(100)
             print('New Balance = ',wallet[c].get_balance())
-        
+        print("Class Tested Successfull ")
 
 
 
